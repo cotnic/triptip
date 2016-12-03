@@ -128,13 +128,14 @@ insert into tb_userplace (us_vemail, pl_nid, up_nrating) values ('ziga@triptip.c
 
 insert into tb_userplace (us_vemail, pl_nid, up_nrating) values ('mitja@triptip.com', 3, 4);
 
-insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('mitja@triptip.com', 1, 1);
+insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('mitja@triptip.com', 1000, 1);
 
-insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('grega@triptip.com', 5, 3);
+insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('grega@triptip.com', 6000, 3);
 
-insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('ziga@triptip.com', 2, 4);
+insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('ziga@triptip.com', 2000, 4);
 
-insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('tristan@triptip.com', 4, 5);
+insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('tristan@triptip.com', 3000, 5);
 
-insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('ziga@triptip.com', 3, 2);
+insert into tb_usercity (us_vemail, ci_nid, uc_nrating) values ('ziga@triptip.com', 1000, 2);
+
 
