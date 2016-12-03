@@ -21,7 +21,7 @@
 	    echo $e->getMessage();
 	}
 
-   	$sql="SELECT co_vid, co_vname, co_vlocalname, co_pflag FROM tb_country";
+   	$sql="SELECT co_vid, co_vname, co_vlocalname, co_pflag FROM tb_country order by co_vname";
 
 
    	$stmt = $pdo->query($sql);
