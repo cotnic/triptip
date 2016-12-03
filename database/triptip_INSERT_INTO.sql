@@ -68,15 +68,15 @@ insert into tb_coutrylanguage (co_vid, la_nid) values ('GBR', 2);
 
 insert into tb_coutrylanguage (co_vid, la_nid) values ('AUT', 5);
 
-insert into tb_tagcity (ta_nid, ci_vid) values (2, 1);
+insert into tb_tagcity (ta_nid, ci_vid) values (2, 1000);
 
-insert into tb_tagcity (ta_nid, ci_vid) values (5, 5);
+insert into tb_tagcity (ta_nid, ci_vid) values (5, 2000);
 
-insert into tb_tagcity (ta_nid, ci_vid) values (4, 2);
+insert into tb_tagcity (ta_nid, ci_vid) values (4, 3000);
 
-insert into tb_tagcity (ta_nid, ci_vid) values (3, 4);
+insert into tb_tagcity (ta_nid, ci_vid) values (3, 6000);
 
-insert into tb_tagcity (ta_nid, ci_vid) values (1, 3);
+insert into tb_tagcity (ta_nid, ci_vid) values (1, 4260);
 
 insert into tb_tagcountry (ta_nid, co_vid) values (2, 'SVN');
 
@@ -88,15 +88,15 @@ insert into tb_tagcountry (ta_nid, co_vid) values (3, 'GBR');
 
 insert into tb_tagcountry (ta_nid, co_vid) values (1, 'AUT');
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (1, 4, 2, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (1, 1000, 2, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (5, 2, 4, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (5, 2000, 4, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (3, 5, 5, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (3, 6000, 5, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (4, 1, 1, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (4, 3000, 1, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (2, 3, 3, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude) values (2, 4260, 3, 'Triple Bridge', 'Tromostovje', 14.506190, 46.051117);
 
 insert into tb_tagplace (ta_nid, pl_vid) values (2, 1);
 
