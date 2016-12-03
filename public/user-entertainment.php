@@ -65,7 +65,7 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Entertainment in City</h1>
+                <h1>Entertainment in Ljubljana</h1>
                 <hr>
                 <div class="list-group">
 

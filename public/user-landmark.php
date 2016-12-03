@@ -67,13 +67,14 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Entertainment in City</h1>
+                <h1>Landmarks in Ljubljana</h1>
                 <hr>
                 <div class="list-group">
 
                   <?php include("private/controllers/landmark.php"); ?>
 
                 </div>
+                <a class="btn btn-default btn-back" href="user-landmark.php"><i class="fa fa-arrow-left"></i> Go back</a>
             </div>
         </div>
 
