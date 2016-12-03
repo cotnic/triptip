@@ -13,7 +13,7 @@
 	    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 	    PDO::ATTR_EMULATE_PREPARES   => false,
 	];
-	
+
 
 	try {
 	    $pdo = new PDO($dsn, $user, $pass, $opt);
@@ -22,7 +22,7 @@
 	}
 
    	$sql="SELECT co_vid, co_vname, co_vlocalname, co_pflag FROM tb_country";
-      
+
 
    	$stmt = $pdo->query($sql);
 	while ($row = $stmt->fetch())
@@ -37,10 +37,10 @@
                 <a href=\"tables.html\">{$row['co_vname']} <img class=\"navbar-flag\" class=\"navbar-flag\" height=\"14\" width=\"24\" src=\"{$row['co_pflag']}\"><span class=\"fa arrow\"></span></a>
                 <ul class=\"nav nav-second-level\">
                     <li>
-                        <a href=\"user-cities.php\">Cities</a>
+                        <a href=\"user-cities.php?$row['co_vid']\">Cities</a>
                     </li>
                     <li>
-                        <a href=\"user-language.php\">Language</a>
+                        <a href=\"user-language.php?$row['co_vid']\">Language</a>
                     </li>
                 </ul>
             </li>";
