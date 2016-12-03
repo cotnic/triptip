@@ -1,3 +1,11 @@
+/*---------------------------*/
+/*   Creator: Grega Vrečar   */
+/*---------------------------*/
+
+/*------------------*/
+/*     LANDMARKS    */
+/*------------------*/
+
 Ljubljana Castle
 Ljubljana Castle (Slovene: Ljubljanski grad) is a castle complex standing on Castle Hill above the downtown of Ljubljana, the capital of Slovenia.
 It is a key element of the Ljubljana skyline. Originally a Medieval fortress, probably built in the 11th century and rebuilt in the 12th century,
@@ -24,3 +32,46 @@ Prešeren Monument
 The Prešeren Monument in Ljubljana (Slovene: Prešernov spomenik), also Prešeren Statue in Ljubljana,
 is a late Historicist bronze statue of the Slovene national poet France Prešeren in Ljubljana, the capital of Slovenia.
 It stands in the eastern side of Prešeren Square, in front of the Central Pharmacy Building in Ljubljana, the capital of Slovenia. It is among the best-known Slovenian monuments.
+
+/*------------------*/
+/*   ENTERTAIMENT   */
+/*------------------*/
+
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (6, 1000, 5, 'Escape Room Enigmarium',
+'Escape Room Enigmarium', 14.506190, 46.051117, 'The Escape Room Enigmarium offers three different escape rooms in Ljubljana.
+The exciting experiences provided in the rooms are modelled on the cult escape-the-room computer games and inspired by the local historical heritage.
+In January 2015, the Escape Room Enigmarium was ranked the no. 1 activity in Ljubljana on the TripAdvisor website.', 'img/places/6.jpg');
+
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (7, 1000, 5, 'Cat Caffe',
+'Cat Caffe', 14.506190, 46.051117, 'Cat Caffe Ljubljana is a very special little café. It is home to a group of friendly cats that will keep you company while you enjoy your cup of coffee or tea.
+You can watch the cats, take photographs of them and even play with them as long as you observe the rules of behaviour in the presence of cats displayed next to the entrance.
+The café serves a choice of drinks, sells cat-themed souvenirs, and holds a small collection of books where you can find interesting facts about different cat breeds.', 'img/places/7.jpg');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
