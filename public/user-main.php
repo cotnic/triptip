@@ -44,11 +44,9 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Ziga <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">Link</a> </li>
-                        <li><a href="">Link</a> </li>
-                        <li><a href="">Link</a> </li>
+                        <li><a href="">Edit profile</a> </li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="">Odjava</a></li>
+                        <li><a href="index.php">Log out</a></li>
                     </ul>
                 </li>
             </ul>
