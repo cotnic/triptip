@@ -48,7 +48,7 @@
                           </div>
                           <div class=\"col-xs-2\">
                               <big><strong>{$row['up_nrating']}/5</strong></big>
-							  <button onclick=\"initMap({$row['pl_nlatitude']}, {$row['pl_vlocalname']})\"class=\"btn btn-default\"><i class=\"fa fa-map\" aria-hidden=\"true\"></i></button>
+							  <button onclick=\"initMap({$row['pl_nlatitude']}, {$row['pl_nlongitude']})\"class=\"btn btn-default\"><i class=\"fa fa-map\" aria-hidden=\"true\"></i></button>
                           </div>
                       </div>
                   </a>";
