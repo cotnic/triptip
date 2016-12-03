@@ -1,3 +1,5 @@
 #triptip 
 
-Project developed in LocalHackDay in Ljubljana.    
+Project developed in LocalHackDay in Ljubljana.   
+
+Participants: Mitja, Grega, Tristan, Žiga    
