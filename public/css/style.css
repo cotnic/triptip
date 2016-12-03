@@ -1,0 +1,40 @@
+.image-container {
+    margin-bottom: 20px;
+    position: relative;
+    width:100%;
+    text-align: center;
+}
+
+.image-container-title {
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.image-container-title:hover {
+    text-decoration: underline;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-center {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.row-places {
+    text-align: center;
+}
+
+.col-places {
+    margin: 0 !important;
+}
+
+.img-place {
+    width: 90%;
+    height: 90%;
+    margin-bottom: 30px;
+}
