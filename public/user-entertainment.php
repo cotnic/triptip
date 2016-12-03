@@ -98,53 +98,9 @@
                 <h1>Entertainment in City</h1>
                 <hr>
                 <div class="list-group">
-                  <a class="list-group-item">
-                      <div class="row">
-                          <div class="col-xs-2 hidden-xs">
-                              <img src="http://lorempixel.com/110/110/nightlife/" class="img-responsive img-thumbnail">
-                          </div>
-                          <div class="col-xs-8">
-                              <h3 class="list-group-item-heading">Best entertainment ever<br>
-                              <small>Something something</small></h3>
-                              <p class="list-group-item-text">Short description. blablabla</p>
-                          </div>
-                          <div class="col-xs-2">
-                              <big><strong>1/5</strong></big>
-                          </div>
-                      </div>
-                  </a>
+                  
+                  <?php include("private/controllers/entertainment.php"); ?>
 
-                  <a class="list-group-item">
-                      <div class="row">
-                          <div class="col-xs-2 hidden-xs">
-                              <img src="http://lorempixel.com/110/110/nightlife/" class="img-responsive img-thumbnail">
-                          </div>
-                          <div class="col-xs-8">
-                              <h3 class="list-group-item-heading">Best entertainment ever<br>
-                              <small>Something something</small></h3>
-                              <p class="list-group-item-text">Short description. blablabla</p>
-                          </div>
-                          <div class="col-xs-2">
-                              <big><strong>1/5</strong></big>
-                          </div>
-                      </div>
-                  </a>
-
-                  <a class="list-group-item">
-                      <div class="row">
-                          <div class="col-xs-2 hidden-xs">
-                              <img src="http://lorempixel.com/110/110/nightlife/" class="img-responsive img-thumbnail">
-                          </div>
-                          <div class="col-xs-8">
-                              <h3 class="list-group-item-heading">Best entertainment ever<br>
-                              <small>Something something</small></h3>
-                              <p class="list-group-item-text">Short description. blablabla</p>
-                          </div>
-                          <div class="col-xs-2">
-                              <big><strong>1/5</strong></big>
-                          </div>
-                      </div>
-                  </a>
                 </div>
             </div>
         </div>
