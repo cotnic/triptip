@@ -17,6 +17,8 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/metisMenu.min.js"></script>
     <script src="js/sb-admin-2.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX1UwGQD4HC6zd2Kt1GU1IoiYW9DOBie0&callback=initMap" async defer/>
+    <script src="js/googleMaps.js"></script>
     <!-- Custom JS -->
     <script src="js/script.js"></script>
 </head>
