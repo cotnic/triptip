@@ -67,11 +67,11 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Language</h1>
+                <h1>Slovenian</h1>
                 <hr>
                 <div class="well">
-                    Slovene (Listeni/ˈsloʊviːn/ or /sloʊˈviːn, slə-/[6]) or Slovenian (Listeni/sloʊˈviːniən, slə-/;[7][8] slovenski jezik or slovenščina), belongs to the group of South Slavic languages. It is spoken by approximately 2.5 million speakers worldwide, the majority of whom live in Slovenia. It is the first language of about 2.1 million[citation needed] Slovenian people and is one of the 24 official and working languages of the European Union.
-                </div>
+                    Slovene or Slovenian, belongs to the group of South Slavic languages. It is spoken by approximately 2.5 million speakers worldwide, the majority of whom live in Slovenia. It is the first language of about 2.1 million Slovenian people and is one of the 24 official and working languages of the European Union.
+                </div>s
                 <div class="row">
                     <div class="col-xs-8">
                         <?php include("private/controllers/language.php"); ?>
