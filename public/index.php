@@ -29,7 +29,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" ui-sref="home">TripTip</a>
+              <a class="navbar-brand" href="/">
+                  <div class="logo-container">
+                      <img class="logo-header" src="img/logo_crn.png"> TripTip
+                  </div>
+              </a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">

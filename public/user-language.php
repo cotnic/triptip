@@ -32,7 +32,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="user-main.php" >TripTip.com</a>
+                <a class="navbar-brand" href="user-main.php">
+                  <div class="logo-container">
+                      <img class="logo-header" src="img/logo_crn.png"> TripTip
+                  </div>
+                </a>
             </div>
             <!-- /.navbar-header -->
 
