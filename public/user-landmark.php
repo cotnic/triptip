@@ -85,13 +85,9 @@
     <div class="modal fade" id="mapsModal" role="dialog" aria-labelledby="mapsModal">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-          </div>
-          <div class="modal-body" style="height: 550px;">
             <div id="map" style="height: 500px;">
 
             </div>
-        </div>
       </div>
     </div>
 </body>
