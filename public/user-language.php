@@ -72,30 +72,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-8">
-                        <div class="audio-container">
-                            <h3 class="phrase-english">Good day</h3>
-                            <hr>
-                            <h3 class="phrase-translated">Dober dan</h3>
-                            <audio class="audio-translation" controls>
-                              <source src="voice/SVN/goodday.mp3" type="audio/mpeg">
-                            </audio>
-                        </div>
-                        <div class="audio-container">
-                            <h3 class="phrase-english">Goodbye</h3>
-                            <hr>
-                            <h3 class="phrase-translated">Nasvidenje</h3>
-                            <audio class="audio-translation" controls>
-                              <source src="voice/SVN/goodbye.mp3" type="audio/mpeg">
-                            </audio>
-                        </div>
-                        <div class="audio-container">
-                            <h3 class="phrase-english">Please</h3>
-                            <hr>
-                            <h3 class="phrase-translated">Prosim</h3>
-                            <audio class="audio-translation" controls>
-                              <source src="voice/SVN/please.mp3" type="audio/mpeg">
-                            </audio>
-                        </div>
+                        <?php include("private/controllers/language.php"); ?>
                     </div>
                 </div>
             </div>

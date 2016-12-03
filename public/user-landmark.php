@@ -44,9 +44,11 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i> Ziga <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">Edit profile</a> </li>
+                        <li><a href="">Link</a> </li>
+                        <li><a href="">Link</a> </li>
+                        <li><a href="">Link</a> </li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="">Log out</a></li>
+                        <li><a href="">Odjava</a></li>
                     </ul>
                 </li>
             </ul>
@@ -65,23 +67,12 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Places in City</h1>
+                <h1>Entertainment in City</h1>
                 <hr>
-                <div class="row row-places">
-                    <a href="user-landmark.php">
-                        <div class="col-sm-6 col-places"><img src="img/landmark.jpg" class="img-fluid img-place" alt=""></div>
-                    </a>
-                    <a href="">
-                        <div class="col-sm-6 col-places"><img src="img/food.jpg" class="img-fluid img-place" alt=""></div>
-                    </a>
-                </div>
-                <div class="row row-places">
-                    <a href="user-entertainment.php">
-                        <div class="col-sm-6 col-places"><img src="img/entertainment.jpg" class="img-fluid img-place" alt=""></div>
-                    </a>
-                    <a href="">
-                        <div class="col-sm-6 col-places"><img src="img/sleep.jpg" class="img-fluid img-place" alt=""></div>
-                    </a>
+                <div class="list-group">
+
+                  <?php include("private/controllers/landmark.php"); ?>
+
                 </div>
             </div>
         </div>
