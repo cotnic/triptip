@@ -7,7 +7,7 @@
 /*------------------*/
 
 UPDATE tb_place
-    SET ci_nid = 1000, 
+	SET ci_nid = 1000, 
 		ty_nid = 1,
 		pl_vname = 'Ljubljana Castle',
 		pl_vlocalname = 'Ljubljanski grad',
@@ -19,7 +19,7 @@ UPDATE tb_place
 		At first a defense structure and since the first half of the 14th century the seat of the lords of Carniola, it was since the early 19th century used as a penitentiary,
 		then in the first half of the 20th century as a residential complex and in the latest times as a tourist attraction and a major cultural venue.",
 		pl_pimg = 'img/places/1.jpg'
-    WHERE pl_nid = 1
+    WHERE pl_nid = 1;
 
 UPDATE tb_place
     SET ci_nid = 1000, 
@@ -31,7 +31,7 @@ UPDATE tb_place
 		pl_vdescription = "The Triple Bridge (Slovene: Tromostovje, in older sources also Tromostje) is a group of three bridges across the Ljubljanica River.
 		It connects the Ljubljana's historical, medieval, town on one bank, and the modern city of Ljubljana, capital of Slovenia, on the other.",
 		pl_pimg = 'img/places/3.jpg'
-    WHERE pl_nid = 3
+    WHERE pl_nid = 3;
 
 UPDATE tb_place
     SET ci_nid = 1000, 
@@ -46,7 +46,7 @@ UPDATE tb_place
 		As one of the best examples of reinforced concrete bridges and of the Vienna Secession style, the bridge is today protected as a technical monument.
 		It is intended primarily for motorised traffic.",
 		pl_pimg = 'img/places/2.jpg'
-    WHERE pl_nid = 2
+    WHERE pl_nid = 2;
 
 UPDATE tb_place
     SET ci_nid = 1000, 
@@ -55,9 +55,9 @@ UPDATE tb_place
 		pl_vlocalname = 'Univerza Ljubljane',
 		pl_nlongitude = 14.504102,
 		pl_nlatitude =  46.049320,  
-		pl_vdescription = "The University of Ljubljana (Slovene: Univerza v Ljubljani [uniʋɛ́ːrza w ljubljàːni], acronym: UL, Latin: Universitas Labacensis) is the oldest and largest university in Slovenia, being among the 800 world's best universities. With over 63,000 enrolled undergraduate and graduate students, it is among the largest universities in Europe.",
+		pl_vdescription = "The University of Ljubljana (Slovene: Univerza v Ljubljani Latin: Universitas Labacensis) is the oldest and largest university in Slovenia, being among the 800 world's best universities. With over 63,000 enrolled undergraduate and graduate students, it is among the largest universities in Europe.",
 		pl_pimg = 'img/places/4.jpg'
-    WHERE pl_nid = 4
+    WHERE pl_nid = 4;
 
 UPDATE tb_place
     SET ci_nid = 1000, 
@@ -70,7 +70,7 @@ UPDATE tb_place
 		is a late Historicist bronze statue of the Slovene national poet France Prešeren in Ljubljana, the capital of Slovenia.
 		It stands in the eastern side of Prešeren Square, in front of the Central Pharmacy Building in Ljubljana, the capital of Slovenia. It is among the best-known Slovenian monuments.",
 		pl_pimg = 'img/places/5.jpg'
-    WHERE pl_nid = 5	
+    WHERE pl_nid = 5;	
 
 /*------------------*/
 /*   ENTERTAIMENT   */
