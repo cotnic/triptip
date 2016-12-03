@@ -74,6 +74,10 @@
                   <?php include("private/controllers/landmark.php"); ?>
 
                 </div>
+
+                <div id="map" style="height: 500px;">
+
+                </div>
                 <a class="btn btn-default btn-back" href="user-places.php"><i class="fa fa-arrow-left"></i> Go back</a>
             </div>
         </div>
@@ -88,9 +92,7 @@
           <div class="modal-header">
           </div>
           <div class="modal-body" style="height: 500px;">
-            <div id="map" style="height: 500px;">
 
-            </div>
         </div>
       </div>
     </div>
