@@ -97,12 +97,7 @@
             <div class="container">
                 <h1>Cities in Country</h1>
                 <hr>
-                <div class="image-container">
-                    <a href="user-places.php">
-                        <img class="img-fluid img-center img-thumbnail rounded" src="http://lorempixel.com/800/400/city/" alt="">
-                        <h3 class="image-container-title">City Name</h3>
-                    </a>
-                </div>
+                <?php include("private/controllers/city.php"); ?>
 
             </div>
         </div>

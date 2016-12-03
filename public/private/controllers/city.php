@@ -27,11 +27,19 @@
    	$stmt = $pdo->query($sql);
 	while ($row = $stmt->fetch())
 	{
-	    echo "City :{$row['ci_vname']}  <br> ".
+/**	    echo "City :{$row['ci_vname']}  <br> ".
          "Localname : {$row['ci_vlocalname']} <br> ".
          "Longitude : {$row['ci_nlongitude']} <br> ".
          "Latitude : {$row['ci_nlatitude']} <br> ".
          "Picture path : {$row['ci_pcity']} <br> ".
          "--------------------------------<br>";
+*/
+        echo "<hr>
+                <div class=\"image-container\">
+                    <a href=\"user-places.php\">
+                        <img class=\"img-fluid img-center img-thumbnail rounded\" src=\"{$row['ci_pcity']}\" alt=\"\">
+                        <h3 class=\"image-container-title\">{$row['ci_vname']}</h3>
+                    </a>
+                </div>";
 	}
 ?>
