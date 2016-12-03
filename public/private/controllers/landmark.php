@@ -48,7 +48,7 @@
                           </div>
                           <div class=\"col-xs-2\">
                               <big><strong>{$row['up_nrating']}/5</strong></big>
-							  <a class=\"btn btn-default\"><i class=\"fa fa-map\" aria-hidden=\"true\"></i>
+							  <a class=\"btn btn-default\"><i class=\"fa fa-map\" aria-hidden=\"true\"></i></a>
                           </div>
                       </div>
                   </a>";
