@@ -74,7 +74,7 @@ create table tb_coutrylanguage
 /*==============================================================*/
 create table tb_fraze
 (
-   fr_nid               int not null,
+   fr_nid               int not null AUTO_INCREMENT,
    la_nid               int not null,
    fr_vname             varchar(100) not null,
    fr_vlocalname        varchar(100) not null,
@@ -87,7 +87,7 @@ create table tb_fraze
 /*==============================================================*/
 create table tb_language
 (
-   la_nid               int not null,
+   la_nid               int not null AUTO_INCREMENT,
    la_vname             varchar(100) not null,
    la_vlocalname        varchar(100) not null,
    la_vdescription      varchar(1024) not null,
@@ -99,7 +99,7 @@ create table tb_language
 /*==============================================================*/
 create table tb_place
 (
-   pl_nid               int not null,
+   pl_nid               int not null AUTO_INCREMENT,
    ci_nid               int not null,
    ty_nid               int not null,
    pl_vname             varchar(100) not null,
@@ -144,7 +144,7 @@ create table tb_tagplace
 /*==============================================================*/
 create table tb_tags
 (
-   ta_nid               int not null,
+   ta_nid               int not null AUTO_INCREMENT,
    ta_vname             varchar(25) not null,
    primary key (ta_nid)
 );
@@ -154,7 +154,7 @@ create table tb_tags
 /*==============================================================*/
 create table tb_type
 (
-   ty_nid               int not null,
+   ty_nid               int not null AUTO_INCREMENT,
    ty_vname             varchar(30) not null,
    primary key (ty_nid)
 );
