@@ -65,7 +65,7 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Places in Slovenia</h1>
+                <h1>Places in Ljubljana</h1>
                 <hr>
                 <div class="row row-places">
                     <a href="user-landmark.php">

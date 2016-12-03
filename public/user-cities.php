@@ -65,7 +65,7 @@
         <!-- Content goes here -->
         <div id="page-wrapper">
             <div class="container">
-                <h1>Cities in Country</h1>
+                <h1>Cities in Slovenia</h1>
                 <hr>
                 <?php include("private/controllers/city.php"); ?>
 
