@@ -46,7 +46,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="">Edit profile</a> </li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="index.php">Log out</a></li>
+                        <li><a href="">Log out</a></li>
                     </ul>
                 </li>
             </ul>
@@ -54,6 +54,7 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
+                        <?php include("private/controllers/country-menu.php"); ?>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -68,12 +69,14 @@
                 <hr>
                 <div class="list-group">
 
-
+                  <?php include("private/controllers/entertainment.php"); ?>
 
                 </div>
                 <a class="btn btn-default btn-back" href="user-landmark.php"><i class="fa fa-arrow-left"></i> Go back</a>
             </div>
         </div>
+
+
     </div>
 </body>
 </html>
