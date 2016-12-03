@@ -21,7 +21,7 @@
 	    echo $e->getMessage();
 	}
 
-   	$sql="SELECT pl.pl_vname, pl.pl_vlocalname, pl.pl_nlongitude, pl.pl_nlatitude, pl.pl_vdescription, pl.pl_pimg FROM tb_place pl, tb_type ty WHERE ty.ty_nid = pl.ty_nid AND ty.ty_nid = 1";
+   	$sql="SELECT pl.pl_vname, pl.pl_vlocalname, pl.pl_nlongitude, pl.pl_nlatitude, pl.pl_vdescription, pl.pl_pimg, up.up_nrating FROM tb_place pl, tb_type ty, tb_userplace up WHERE ty.ty_nid = pl.ty_nid AND up.pl_nid = pl.pl_nid AND ty.ty_nid = 1";
       
 
    	$stmt = $pdo->query($sql);
@@ -33,6 +33,7 @@
          "Latitude : {$row['pl_nlatitude']} <br> ".
          "Picture path : {$row['pl_vdescription']} <br> ".
          "Picture path : {$row['pl_pimg']} <br> ".
+         "Picture path : {$row['up_nrating']} <br> ".
          "--------------------------------<br>";
 */
         echo "<a class=\"list-group-item\">
@@ -46,7 +47,7 @@
                               <p class=\"list-group-item-text\">{$row['pl_vdescription']}</p>
                           </div>
                           <div class=\"col-xs-2\">
-                              <big><strong>1/5</strong></big>
+                              <big><strong>{$row['up_nrating']}/5</strong></big>
                           </div>
                       </div>
                   </a>";
