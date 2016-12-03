@@ -86,7 +86,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <input type="submit" class="btn btn-primary" value="Log In">
+                <a href="user-main.php" class="btn btn-primary">Log In</a>
               </div>
           </form>
         </div>
