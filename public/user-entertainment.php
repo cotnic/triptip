@@ -46,7 +46,7 @@
                     <ul class="dropdown-menu">
                         <li><a href="">Edit profile</a> </li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="">Log out</a></li>
+                        <li><a href="index.php">Log out</a></li>
                     </ul>
                 </li>
             </ul>
