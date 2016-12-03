@@ -58,7 +58,7 @@
     </header>
 
     <div class="container">
-        
+        <img class="logo-full img-center" src="img/logo_barven.png" alt="" />
     </div>
 
     <!-- Log In Modal -->
