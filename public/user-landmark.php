@@ -74,7 +74,7 @@
                   <?php include("private/controllers/landmark.php"); ?>
 
                 </div>
-                <a class="btn btn-default btn-back" href="user-landmark.php"><i class="fa fa-arrow-left"></i> Go back</a>
+                <a class="btn btn-default btn-back" href="user-places.php"><i class="fa fa-arrow-left"></i> Go back</a>
             </div>
         </div>
 
