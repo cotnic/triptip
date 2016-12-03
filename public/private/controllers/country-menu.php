@@ -37,10 +37,10 @@
                 <a href=\"tables.html\">{$row['co_vname']} <img class=\"navbar-flag\" class=\"navbar-flag\" height=\"14\" width=\"24\" src=\"{$row['co_pflag']}\"><span class=\"fa arrow\"></span></a>
                 <ul class=\"nav nav-second-level\">
                     <li>
-                        <a href=\"user-cities.php?$row['co_vid']\">Cities</a>
+                        <a href=\"user-cities.php?{$row['co_vid']}\">Cities</a>
                     </li>
                     <li>
-                        <a href=\"user-language.php?$row['co_vid']\">Language</a>
+                        <a href=\"user-language.php?{$row['co_vid']}\">Language</a>
                     </li>
                 </ul>
             </li>";
