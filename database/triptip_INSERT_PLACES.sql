@@ -13,16 +13,16 @@ it acquired its present outline with an almost complete overhaul in the 15th cen
 At first a defense structure and since the first half of the 14th century the seat of the lords of Carniola, it was since the early 19th century used as a penitentiary,
 then in the first half of the 20th century as a residential complex and in the latest times as a tourist attraction and a major cultural venue.', 'img/places/1.jpg');
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (2, 1000, 1, 'The Triple Bridge',
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (3, 1000, 1, 'The Triple Bridge',
 'Tromostovje', 14.506190, 46.051117, "The Triple Bridge (Slovene: Tromostovje, in older sources also Tromostje) is a group of three bridges across the Ljubljanica River.
-It connects the Ljubljana's historical, medieval, town on one bank, and the modern city of Ljubljana, capital of Slovenia, on the other.", 'img/places/2.jpg');
+It connects the Ljubljana's historical, medieval, town on one bank, and the modern city of Ljubljana, capital of Slovenia, on the other.", 'img/places/3.jpg');
 
-insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (3, 1000, 1, 'The Dragon Bridge',
+insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (2, 1000, 1, 'The Dragon Bridge',
 'Zmajski most', 14.506190, 46.051117, "The Dragon Bridge (Slovene: Zmajski most, historically also Zmajev most) is a road bridge located in Ljubljana, the capital of Slovenia.
 It crosses the Ljubljanica River. between Kopitar Street (Kopitarjeva ulica) and Ressel Street (Resljeva cesta), to the north of the Ljubljana Central Market at Vodnik Square.
 It was built in the beginning of the 20th century, when Ljubljana was part of the Austro-Hungarian Monarchy.
 As one of the best examples of reinforced concrete bridges and of the Vienna Secession style, the bridge is today protected as a technical monument.
-It is intended primarily for motorised traffic.", 'img/places/3.jpg');
+It is intended primarily for motorised traffic.", 'img/places/2.jpg');
 
 insert into tb_place (pl_nid, ci_nid, ty_nid, pl_vname, pl_vlocalname, pl_nlongitude, pl_nlatitude, pl_vdescription, pl_pimg ) values (4, 1000, 1, 'University of Ljubljana',
 'Univerza Ljubljane', 14.506190, 46.051117, "The Dragon Bridge (Slovene: Zmajski most, historically also Zmajev most) is a road bridge located in Ljubljana, the capital of Slovenia.
