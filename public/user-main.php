@@ -94,7 +94,7 @@
 
         <div id="page-wrapper">
             <div class="container">
-                <h1>User Main</h1>
+                <img class="logo-full img-center" src="img/logo_barven.png" alt="" />
             </div>
         </div>
 
