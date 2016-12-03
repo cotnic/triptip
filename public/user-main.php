@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/" >TripTip.com</a>
+                <a class="navbar-brand" href="user-main.php" >TripTip.com</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -53,7 +53,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="tables.html">Austria <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="tables.html">Austria <img class="navbar-flag" class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>
@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Croatia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="#">Croatia <img class="navbar-flag" class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>
@@ -75,7 +75,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Slovenia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="#">Slovenia <img class="navbar-flag" class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>

@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/" >TripTip.com</a>
+                <a class="navbar-brand" href="user-main.php" >TripTip.com</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -53,7 +53,7 @@
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
                         <li>
-                            <a href="tables.html">Austria <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="tables.html">Austria <img class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>
@@ -64,7 +64,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Croatia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="#">Croatia <img class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>
@@ -75,7 +75,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Slovenia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
+                            <a href="#">Slovenia <img class="navbar-flag" height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
                                     <a href="user-cities.php">Cities</a>
@@ -96,6 +96,38 @@
         <div id="page-wrapper">
             <div class="container">
                 <h1>Language</h1>
+                <hr>
+                <div class="well">
+                    Slovene (Listeni/ˈsloʊviːn/ or /sloʊˈviːn, slə-/[6]) or Slovenian (Listeni/sloʊˈviːniən, slə-/;[7][8] slovenski jezik or slovenščina), belongs to the group of South Slavic languages. It is spoken by approximately 2.5 million speakers worldwide, the majority of whom live in Slovenia. It is the first language of about 2.1 million[citation needed] Slovenian people and is one of the 24 official and working languages of the European Union.
+                </div>
+                <div class="row">
+                    <div class="col-xs-8">
+                        <div class="audio-container">
+                            <h3 class="phrase-english">Good day</h3>
+                            <hr>
+                            <h3 class="phrase-translated">Dober dan</h3>
+                            <audio class="audio-translation" controls>
+                              <source src="voice/SVN/goodday.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="audio-container">
+                            <h3 class="phrase-english">Goodbye</h3>
+                            <hr>
+                            <h3 class="phrase-translated">Nasvidenje</h3>
+                            <audio class="audio-translation" controls>
+                              <source src="voice/SVN/goodbye.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                        <div class="audio-container">
+                            <h3 class="phrase-english">Please</h3>
+                            <hr>
+                            <h3 class="phrase-translated">Prosim</h3>
+                            <audio class="audio-translation" controls>
+                              <source src="voice/SVN/please.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
