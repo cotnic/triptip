@@ -2,20 +2,24 @@
 //DODAJ SE <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDX1UwGQD4HC6zd2Kt1GU1IoiYW9DOBie0&callback=initMap" async defer/>
 
 var map;
-function initMap() {
+function initMap(latitude,longitude) {
+	
+	latitude = parseFloat(latitude);
+	longitude = parseFloat(longitude);
+
 	
 	//Ustvari mapo
     map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 46.0552778, lng: 14.5144444},
+        center: {lat: latitude, lng: longitude},
         zoom: 10
     });
 	
 	//for(){ //za nastavljanje vseh markerjev
 		//Ustvari marker
 			var marker = new google.maps.Marker({
-			position: {lat: 46.0552778, lng: 14.5144444},
-			map: map,
-			title: 'Hello World!'
+			position: {lat: latitude, lng: longitude},
+			map: map
+			//title: 'Hello World!'
 		});
 	
 		//Vsebina okna, ki ga odpremo ob kliku na marker
