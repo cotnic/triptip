@@ -88,7 +88,7 @@
           <div class="modal-header">
           </div>
           <div class="modal-body">
-            <div class="map">
+            <div id="map">
 
             </div>
         </div>
