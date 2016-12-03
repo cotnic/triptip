@@ -87,8 +87,8 @@
         <div class="modal-content">
           <div class="modal-header">
           </div>
-          <div class="modal-body">
-            <div id="map">
+          <div class="modal-body" style="height: 500px;">
+            <div id="map" style="height: 500px;">
 
             </div>
         </div>
