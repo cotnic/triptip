@@ -56,10 +56,10 @@
                             <a href="tables.html">Austria <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -67,10 +67,10 @@
                             <a href="#">Croatia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -78,10 +78,10 @@
                             <a href="#">Slovenia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -106,7 +106,7 @@
                     </a>
                 </div>
                 <div class="row row-places">
-                    <a href="user-entertainment.html">
+                    <a href="user-entertainment.php">
                         <div class="col-sm-6 col-places"><img src="img/entertainment.jpg" class="img-fluid img-place" alt=""></div>
                     </a>
                     <a href="">

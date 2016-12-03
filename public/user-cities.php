@@ -56,10 +56,10 @@
                             <a href="tables.html">Austria <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -67,10 +67,10 @@
                             <a href="#">Croatia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -78,10 +78,10 @@
                             <a href="#">Slovenia <img height="14" width="24" src="https://www.us-cert.gov/sites/default/files/icn-us-flag-21px.png"><span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    <a href="user-cities.html">Cities</a>
+                                    <a href="user-cities.php">Cities</a>
                                 </li>
                                 <li>
-                                    <a href="user-language.html">Language</a>
+                                    <a href="user-language.php">Language</a>
                                 </li>
                             </ul>
                         </li>
@@ -98,7 +98,7 @@
                 <h1>Cities in Country</h1>
                 <hr>
                 <div class="image-container">
-                    <a href="user-places.html">
+                    <a href="user-places.php">
                         <img class="img-fluid img-center img-thumbnail rounded" src="http://lorempixel.com/800/400/city/" alt="">
                         <h3 class="image-container-title">City Name</h3>
                     </a>
