@@ -48,7 +48,7 @@
                         <li><a href="">Link</a> </li>
                         <li><a href="">Link</a> </li>
                         <li role="separator" class="divider"></li>
-                        <li><a href="">Odjava</a></li>
+                        <li><a href="index.php">Odjava</a></li>
                     </ul>
                 </li>
             </ul>
