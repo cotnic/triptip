@@ -54,7 +54,6 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <?php include("private/controllers/country-menu.php"); ?>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->
@@ -69,13 +68,12 @@
                 <hr>
                 <div class="list-group">
 
-                  <?php include("private/controllers/entertainment.php"); ?>
+
 
                 </div>
+                <a class="btn btn-default btn-back" href="user-landmark.php"><i class="fa fa-arrow-left"></i> Go back</a>
             </div>
         </div>
-
-
     </div>
 </body>
 </html>
