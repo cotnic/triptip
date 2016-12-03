@@ -13,7 +13,7 @@
 	    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 	    PDO::ATTR_EMULATE_PREPARES   => false,
 	];
-	
+
 
 	try {
 	    $pdo = new PDO($dsn, $user, $pass, $opt);
@@ -22,7 +22,7 @@
 	}
 
    	$sql="SELECT pl.pl_vname, pl.pl_vlocalname, pl.pl_nlongitude, pl.pl_nlatitude, pl.pl_vdescription, pl.pl_pimg, up.up_nrating FROM tb_place pl, tb_type ty, tb_userplace up WHERE ty.ty_nid = pl.ty_nid AND up.pl_nid = pl.pl_nid AND ty.ty_nid = 1";
-      
+
 
    	$stmt = $pdo->query($sql);
 	while ($row = $stmt->fetch())
@@ -48,6 +48,7 @@
                           </div>
                           <div class=\"col-xs-2\">
                               <big><strong>{$row['up_nrating']}/5</strong></big>
+							  <a class=\"btn btn-default\"><i class=\"fa fa-map\" aria-hidden=\"true\"></i></a>
                           </div>
                       </div>
                   </a>";
